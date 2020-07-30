@@ -474,6 +474,21 @@ mark,
   content: "— ";
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  transition: color 0.3s ease-in;
+}
+
+.footer-social-icon {
+  color: white;
+   transition: color 0.3s ease-in;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
