@@ -41,11 +41,15 @@
             </ul>
         </div>
         <ul class="footer">
-            <!-- ADCIONA UM BOTÃO-->
+            <!-- ADCIONA UM BOTÃO fa fa-cog-->
+
+            <a class= telaLogin aria-hidden="true"
+                href="login.html"><i
+                    class="fa fa-cog"></i></a>
            
-            <a class="footer-social-icon" aria-hidden="true"
+            <!-- botão de downloado no rodapé <a class="footer-social-icon" aria-hidden="true"
                 href="https://drive.google.com/file/d/19gfWv-N_L_CqHOxquXQpkUZZkq7qUd5z/view?usp=sharing"><i
-                    class="fa fa-download"></i> Download do Curriculo</a>
+                    class="fa fa-download"></i> Download do Curriculo</a>-->
         </ul>
 
     </nav>
@@ -67,11 +71,12 @@
                     Atuo na área de T.I e estou a procura de desenvolver minhas competências profissionais e agregar
                     conhecimento em uma organização.</p>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/gleriston-sampaio-280321144/"><i
+                    <a class="social-icon" href="https://www.linkedin.com/in/gleriston-sampaio-280321144/" target="_blank" title="Link para o linkedin"><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/gleriston"><i class="fab fa-github"></i></a>
+                        
+                    <a class="social-icon" href="https://github.com/gleriston" target="_blank" target="_blank" title="Link para o GitHub"><i class="fab fa-github"></i></a>
                     
-                    <a class="social-icon" href="https://drive.google.com/file/d/19gfWv-N_L_CqHOxquXQpkUZZkq7qUd5z/view?usp=sharing"><i class="fa fa-download"></i></a>
+                    <a class="social-icon" href="https://drive.google.com/file/d/19gfWv-N_L_CqHOxquXQpkUZZkq7qUd5z/view?usp=sharing" target="_blank" title="Faça o Download do Meu Curriculo"><i class="fa fa-download"></i></a>
                 </div>
             </div>
 
@@ -139,11 +144,11 @@
                 <h2 class="mb-2">Habilidades</h2>
                 <div class="subheading mb-3">Conhecimentos</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-html5" title="Linguagem HTML5"></i></li>                
+                    <li class="list-inline-item"><i class="fab fa-angular" title="Linguagem Angular"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt" title="Linguagem CSS3"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-linux" title="S.O GNU/Linux"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-raspberry-pi " title="Experiência com Raspberry Pi"></i></li>
 
 
                     <div class="flex-grow-1">
@@ -186,8 +191,29 @@
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Governança de TI - Fundação Brade
+                        Governança de TI - Fundação Bradesco
                     </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Cloud Computing & Serverless (Microsoft) -  Digital Innovation One
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Projetos ágeis com SCRUM - Digital Innovation One
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Fundamentos do Azure - Digital Innovation One
+                    </li>
+                    
+                
+
+                
+            
+
+                
+                
+
 
                 </ul>
             </div>
@@ -200,6 +226,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    
+    <script language=javascript type="text/javascript">
+        function telaLogin(){
+        varWindow = window.open (
+        'login.html',
+        'pagina',
+        "width=350, height=255, top=100, left=110, scrollbars=no " );
+        }
+        </script>
+    
 </body>
 
 
